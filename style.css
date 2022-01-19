@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.container-child {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 10px;
+}
+
+.container-child_a {
+    margin: 0;
+}
+
+.container-child_b {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    
+}
